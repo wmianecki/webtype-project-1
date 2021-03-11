@@ -5,8 +5,9 @@ body {
 
 h1 {
     color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 96px;
 }
 
 p {
