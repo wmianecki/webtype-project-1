@@ -3,12 +3,53 @@ body {
     margin: 30px 50px 50px 50px;
 }
 
+/* .flex-container {
+    display: flex;
+    width: 100%;
+} */
+
+/* CSS Grid */
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 10040px;
+    align-content: center;
+    background: none;
+    border: none;
+}
+
+.grid-container .sidenav {
+    position: fixed;
+}
+
+
+
+
+.sidenav {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 460%;
+}
+
+
 h1 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 96px;
 }
+
+
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
 
 p {
     font-size: large;
@@ -17,6 +58,22 @@ p {
 .about {
     color: black;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 20px;
 } 
+
+.event {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
