@@ -1,14 +1,14 @@
 
 
-var box = document.querySelector(".box");
-var pageX = document.getElementById("x");
-var pageY = document.getElementById("y");
+// var box = document.querySelector(".box");
+// var pageX = document.getElementById("x");
+// var pageY = document.getElementById("y");
 
-function updateDisplay(event) {
-  pageX.innerText = event.pageX;
-  pageY.innerText = event.pageY;
-}
+// function updateDisplay(event) {
+//   pageX.innerText = event.pageX;
+//   pageY.innerText = event.pageY;
+// }
 
-box.addEventListener("mousemove", updateDisplay, false);
-box.addEventListener("mouseenter", updateDisplay, false);
-box.addEventListener("mouseleave", updateDisplay, false);
+// box.addEventListener("mousemove", updateDisplay, false);
+// box.addEventListener("mouseenter", updateDisplay, false);
+// box.addEventListener("mouseleave", updateDisplay, false);
