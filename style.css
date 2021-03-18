@@ -19,14 +19,31 @@ body {
     border: none;
 }
 
+element.style {
+    display: flex;
+}
 
 .landing-content {
     background-color: white;
     padding-top: 4em;
     padding-left: 4em;
-
-    
 }
+
+.event-title {
+    /* text-indent: 50px; */
+    /* font-style: ; */
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 1.1; 
+    padding-left: 450px;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    font-variant-ligatures: normal;
+    font-style: italic;
+}
+
 
 .event-1 {
     background-color: white;
@@ -35,6 +52,157 @@ body {
 
     
 }
+
+.event-1-body {
+    display:flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-bottom: 10em;
+    
+}
+
+.event-details-1 {
+width: 450px;
+/* text-transform: uppercase; */
+
+}
+
+.event-description-1 {
+    /* margin-left: ; */
+    margin-right: 5em;
+    font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 17px;
+    width: 35em;
+    line-height: 1.6;
+
+}
+
+.event-2 {
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+
+    
+}
+
+.event-2-body {
+    display:flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-bottom: 10em;
+    
+}
+
+.event-details-2 {
+width: 450px;
+/* text-transform: uppercase; */
+}
+
+.event-description-2 {
+    /* margin-left: ; */
+    margin-right: 5em;
+    font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 17px;
+    width: 35em;
+    line-height: 1.6;
+}
+
+.event-3 {
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+}
+
+.event-3-body {
+    display:flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-bottom: 10em;
+}
+
+.event-details-3 {
+width: 450px;
+/* text-transform: uppercase; */
+}
+
+.event-description-3 {
+    /* margin-left: ; */
+    margin-right: 5em;
+    font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 17px;
+    width: 35em;
+    line-height: 1.6;
+}
+
+.event-4 {
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+}
+
+.event-4-body {
+    display:flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-bottom: 10em;
+}
+
+.event-details-4 {
+width: 450px;
+/* text-transform: uppercase; */
+}
+
+.event-description-4 {
+    /* margin-left: ; */
+    margin-right: 5em;
+    font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 17px;
+    width: 35em;
+    line-height: 1.6;
+}
+
+.event-5 {
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+}
+
+.event-5-body {
+    display:flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-bottom: 10em;
+}
+
+.event-details-5 {
+width: 450px;
+/* text-transform: uppercase; */
+}
+
+.event-description-5 {
+    /* margin-left: ; */
+    margin-right: 5em;
+    font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 17px;
+    width: 35em;
+    line-height: 1.6;
+}
+
+.events-tk {
+
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+
+}
+
+
+
 
 .main {
     margin-top: 3.5em;
@@ -48,14 +216,7 @@ body {
 
 }
 
-.event-description {
-    margin-left: 3em ;
-    margin-right: 5em;
-    font-family: 'Times New Roman', Times, serif;
-        font-weight: 400;
-        font-size: 16px;
 
-}
 
 .subtitle {
     color: blueviolet;
@@ -68,20 +229,7 @@ body {
     position: fixed;
 }
 
-.event-title {
-        /* text-indent: 50px; */
-        /* font-style: ; */
-        color: black;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 400;
-        font-size: 96px;
-        line-height: 1.1; 
-        margin-left: 3em ;
-        margin-right: 2em;
-        margin-bottom: 5em;
-        font-variant-ligatures: normal;
-        font-style: italic;
-}
+
 
 
 .sidenav {
@@ -99,8 +247,6 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 96px;
-
-  
 }
 
 
