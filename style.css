@@ -14,10 +14,13 @@ body {
     display: grid;
     width: 100%;
     grid-template-columns: 15% 85%;
-    grid-template-rows: ;
     align-content: center;
     background: none;
     border: none;
+}
+
+element.style {
+    display: flex;
 }
 
 .landing-content {
