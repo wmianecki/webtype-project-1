@@ -19,6 +19,26 @@ body {
     border: none;
 }
 
+.sidenav {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding-top: 4em;
+    text-transform: uppercase;
+    
+}
+
+.coordinates {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: blueviolet;
+    
+}
+
+
 /* element.style {
     display: flex;
 } */
@@ -28,6 +48,7 @@ body {
     padding-top: 4em;
     padding-left: 4em;
 }
+
 
 .event-title {
     /* text-indent: 50px; */
@@ -230,18 +251,6 @@ width: 450px;
 }
 
 
-
-
-.sidenav {
-    color: black;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    padding-top: 4em;
-    text-transform: uppercase;
-}
-
-
 h1 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -285,7 +294,7 @@ p {
     font-weight: 400;
     font-size: 96px;
     letter-spacing: 10%;
-    margin-top: 1em;
+    /* margin-top: 1em; */
     font-variant-ligatures: normal;
 }
 
@@ -298,11 +307,11 @@ hr {
     padding: 0;
 }
 
-/* .box {
+.box {
     width: 400px;
     height: 250px;
     border: 2px solid darkblue;
     background-color: blue;
     color: white;
     font: 16px "Zilla", "Open Sans", "Helvetica", "Arial", sans-serif;
-  } */
+  }
