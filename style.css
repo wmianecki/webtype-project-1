@@ -1,26 +1,67 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 30px 50px 50px 50px;
+    margin: 0px 0px 50px 50px;
+    background-color: whitesmoke;
 }
 
-/* .flex-container {
-    display: flex;
-    width: 100%;
-} */
 
-/* CSS Grid */
+* {     box-sizing: border-box;    
+        margin: 0;    
+         
+    }
+
 .grid-container {
     display: grid;
     width: 100%;
     grid-template-columns: 15% 85%;
-    grid-template-rows: 10040px;
+    grid-template-rows: ;
     align-content: center;
     background: none;
     border: none;
 }
 
-.event-content {
-    line-height: 0.9;
+.landing-content {
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+
+    
+}
+
+.event-1 {
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+
+    
+}
+
+.main {
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    text-align: center
+    
+
+}
+
+.event-description {
+    margin-left: 3em ;
+    margin-right: 5em;
+    font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 16px;
+
+}
+
+.subtitle {
+    color: blueviolet;
+    font-size: 18px;
+    /* letter-spacing:; */
+
 }
 
 .grid-container .sidenav {
@@ -29,22 +70,27 @@ body {
 
 .event-title {
         /* text-indent: 50px; */
-        font-style: italic;
+        /* font-style: ; */
         color: black;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 400;
         font-size: 96px;
-        line-height: 1.1;
-        text-indent: .3;
+        line-height: 1.1; 
+        margin-left: 3em ;
+        margin-right: 2em;
+        margin-bottom: 5em;
+        font-variant-ligatures: normal;
+        font-style: italic;
 }
 
 
 .sidenav {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 460%;
+    font-size: 1em;
+    padding-top: 4em;
+    text-transform: uppercase;
 }
 
 
@@ -53,6 +99,8 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 96px;
+
+  
 }
 
 
@@ -61,11 +109,13 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 18px;
+
 }
 
 
 p {
     font-size: large;
+    margin-block-start: 0em;
 }
 
 .about {
@@ -80,13 +130,33 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 96px;
+    margin-top: .5em;
+}
+
+.speaker {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 96px;
+    letter-spacing: 10%;
+    margin-top: 1em;
+    font-variant-ligatures: normal;
 }
 
 hr {
     display: block;
     height: 1px;
+    stroke-width: 5px;
     border: 0;
-    border-top: 2px solid black;
-    margin: 1em 0;
+    border-top: 1px solid black;
     padding: 0;
 }
+
+/* .box {
+    width: 400px;
+    height: 250px;
+    border: 2px solid darkblue;
+    background-color: blue;
+    color: white;
+    font: 16px "Zilla", "Open Sans", "Helvetica", "Arial", sans-serif;
+  } */
