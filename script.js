@@ -1,14 +1,14 @@
+$( document ).ready(function() {
+  console.log( "poop!" );
 
 
-var box = document.querySelector(".box");
-var pageX = document.getElementById("x");
-var pageY = document.getElementById("y");
+$( ".landing-content" ).mousemove(function( event ) {
+  var pageCoords = event.pageX + "°" + ", " + event.pageY + "°";
+  var clientCoords = "( " + event.clientX + ", " + event.clientY + " )";
+  $( "span" ).first().text(  pageCoords );
+  // $( "span" ).last().text( clientCoords );
+});
 
-function updateDisplay(event) {
-  pageX.innerText = event.pageX;
-  pageY.innerText = event.pageY;
-}
 
-box.addEventListener ("mousemove", updateDisplay, false);
-box.addEventListener ("mouseenter", updateDisplay, false);
-box.addEventListener ("mouseleave", updateDisplay, false); 
+});
+

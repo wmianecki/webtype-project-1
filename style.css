@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px 0px 50px 50px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 
@@ -26,11 +26,34 @@ body {
     font-size: 1em;
     padding-top: 4em;
     text-transform: uppercase;
+    min-width: 800px;
     
 }
 
-.coordinates {
+.main {
+    margin-top: 3.5em;
+    margin-bottom: .75em;
+    line-height: 110%;
     color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    text-align: center;  
+
+}
+
+.liveCoordinates {
+
+    color: blueviolet;
+    font-weight: 100;
+    font-size: 96px;
+    font-family: sans-serif;
+    text-align: center;
+ 
+  }
+
+
+.coordinates {
     font-family: sans-serif;
     font-weight: 100;
     font-size: 2em;
@@ -38,6 +61,9 @@ body {
     
 }
 
+.placeholder {
+    visibility: hidden;
+}
 
 /* element.style {
     display: flex;
@@ -84,6 +110,8 @@ body {
 
 .event-details-1 {
 width: 450px;
+font-family:sans-serif; 
+min-width: 200px;
 /* text-transform: uppercase; */
 
 }
@@ -91,7 +119,7 @@ width: 450px;
 .event-description-1 {
     /* margin-left: ; */
     margin-right: 5em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
         font-weight: 400;
         font-size: 17px;
     width: 35em;
@@ -123,7 +151,7 @@ width: 450px;
 .event-description-2 {
     /* margin-left: ; */
     margin-right: 5em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
         font-weight: 400;
         font-size: 17px;
     width: 35em;
@@ -151,7 +179,7 @@ width: 450px;
 .event-description-3 {
     /* margin-left: ; */
     margin-right: 5em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
         font-weight: 400;
         font-size: 17px;
     width: 35em;
@@ -179,7 +207,7 @@ width: 450px;
 .event-description-4 {
     /* margin-left: ; */
     margin-right: 5em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
         font-weight: 400;
         font-size: 17px;
     width: 35em;
@@ -207,12 +235,44 @@ width: 450px;
 .event-description-5 {
     /* margin-left: ; */
     margin-right: 5em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
         font-weight: 400;
         font-size: 17px;
     width: 35em;
     line-height: 1.6;
 }
+
+/*  */
+.event-6 {
+    background-color: white;
+    padding-top: 4em;
+    padding-left: 4em;
+}
+
+.event-6-body {
+    display:flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-bottom: 10em;
+}
+
+.event-details-6 {
+width: 450px;
+/* text-transform: uppercase; */
+}
+
+.event-description-6 {
+    /* margin-left: ; */
+    margin-right: 5em;
+    font-family: sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+    width: 35em;
+    line-height: 1.6;
+}
+
+
+
 
 .events-tk {
 
@@ -225,23 +285,16 @@ width: 450px;
 
 
 
-.main {
-    margin-top: 3.5em;
-    margin-bottom: 3.5em;
-    color: black;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 96px;
-    text-align: center
-    
 
-}
 
 
 
 .subtitle {
-    color: blueviolet;
+    color: black;
     font-size: 18px;
+    text-align: center;  
+    justify-content: center;
+    margin-bottom: 20em;
     /* letter-spacing:; */
 
 }
@@ -308,10 +361,6 @@ hr {
 }
 
 .box {
-    width: 400px;
-    height: 250px;
-    border: 2px solid darkblue;
-    background-color: blue;
-    color: white;
+    color: black;
     font: 16px "Zilla", "Open Sans", "Helvetica", "Arial", sans-serif;
   }
